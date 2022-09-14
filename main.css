@@ -1,0 +1,21 @@
+#fighters-grid {
+    display: flex;
+    width: 424px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    
+    gap: 8px;
+}
+
+.fighter-thumb {
+    height: 96px;
+    width: 96px;
+    transition: transform 0.2s, border 0.2s;
+    border: 2px solid transparent ;
+}
+
+.fighter-thumb:hover {
+    transform: scale(1.15);
+    border: 2px solid #d33;
+    cursor: pointer;
+}

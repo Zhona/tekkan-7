@@ -14,10 +14,11 @@ fighters.forEach((fighter)=> {
     let div = document.createElement("div")
     let img = document.createElement("img")
     img.src = fighterUrl(fighter)
-    div.style.height = "100px"
-    div.style.height = "100px"
+    //div.style.height = "100px"
+    //div.style.width = "100px"
+    div.classList.add("fighter-thumb")
     img.style.height = "100px"
-    img.style.height = "100px"
+    img.style.width = "100px"
     fightersGrid.append(div)
     div.append(img)
 })
