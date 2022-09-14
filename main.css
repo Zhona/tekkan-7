@@ -1,11 +1,35 @@
 #nav {
-    background-color: red;
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: ;
+    left: 0;
+    top: 0;
+    height: 70px;
 }
 
+#nav div {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;   
+}
+
+#nav div:hover {
+    border-bottom: 2px solid #858585;
+
+}
+
+#logo {
+    width: 280px;
+    height: auto;
+}
 #fighters-grid {
     display: flex;
     width: 424px;
-
+    padding-top: 10%;
     flex-wrap: wrap;
     gap: 8px;
     margin: 0 auto;
